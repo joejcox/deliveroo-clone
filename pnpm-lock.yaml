@@ -12,6 +12,7 @@ specifiers:
   eslint: 8.52.0
   eslint-config-next: 14.0.0
   eslint-plugin-jsx-a11y: ^6.7.1
+  eslint-plugin-react-hooks: ^4.6.0
   husky: ^8.0.3
   lint-staged: ^15.0.2
   next: 14.0.0
@@ -41,6 +42,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 6.9.0_kdkkxsk7lol6ssd3nogxezhooq
   '@typescript-eslint/parser': 6.9.0_i3vkbg2fztj7jno7sh3heeojya
   eslint-plugin-jsx-a11y: 6.7.1_eslint@8.52.0
+  eslint-plugin-react-hooks: 4.6.0_eslint@8.52.0
   husky: 8.0.3
   lint-staged: 15.0.2
 
@@ -1474,7 +1476,6 @@ packages:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
     dependencies:
       eslint: 8.52.0
-    dev: false
 
   /eslint-plugin-react/7.33.2_eslint@8.52.0:
     resolution: {integrity: sha512-73QQMKALArI8/7xGLNI/3LylrEYrlKZSb5C9+q3OtOewTnMQi5cT+aE9E41sLCmli3I9PGGmD1yiZydyo4FEPw==}

@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "./src/**/*.{ts,js,tsx,jsx}": [
-      "eslint --ignore-path .eslintignore \"src/**/*.+(ts|js|tsx|jsx)\" --fix"
+      "lint"
     ]
   },
   "dependencies": {
@@ -34,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2"
   }
