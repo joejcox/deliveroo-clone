@@ -11,8 +11,13 @@
   },
   "lint-staged": {
     "./src/**/*.{ts,js,tsx,jsx}": [
-      "lint"
+      "eslint --ignore-path .eslintignore \"src/**/*.+(ts|js|tsx|jsx)\" --fix"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm lint"
+    }
   },
   "dependencies": {
     "@types/node": "20.8.9",
