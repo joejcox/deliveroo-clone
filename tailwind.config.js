@@ -9,6 +9,17 @@ module.exports = {
     container: {
       center: true
     },
+    extend: {
+      fontSize: {
+        "40": "40px",
+      },
+      leading: {
+        "48": "48px"
+      },
+      colors: {
+        brand: "#00ccbc"
+      }
+    },
   },
   plugins: [],
 }
