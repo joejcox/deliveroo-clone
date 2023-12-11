@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <HomepageHero />
-      <main></main>
+      <main className="p-8"></main>
     </>
   );
 }
